@@ -1,0 +1,59 @@
+header {
+  background-image: url(../components/images/bg-header-desktop.svg);
+  width: 100%;
+  height: 10rem;
+  background-color: var(--primary-color);
+}
+.header-group {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 70vw;
+  margin: -60px auto 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    li {
+      display: flex;
+      align-items: center;
+      padding: 0 0 0 10px;
+      @media screen and (max-width: 400px) {
+        font-size: 0.8rem;
+        img {
+          width: 10px;
+        }
+      }
+    }
+
+    button {
+      margin-left: 7px;
+      background-color: var(--primary-color);
+      font-size: 0.2rem;
+      padding: 10px;
+      border: 0;
+    }
+  }
+  .clearBtn {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+    @media screen and (max-width: 400px) {
+      font-size: 1.2rem;
+    }
+  }
+  .clearBtn:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+}

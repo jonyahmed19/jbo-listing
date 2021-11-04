@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+
+:root {
+  --background-color: hsl(180, 52%, 96%);
+  --filter-table: hsl(180, 31%, 95%);
+  --dark-greyish: hsl(180, 8%, 52%);
+  --very-dark-greyish: hsl(180, 14%, 20%);
+  --primary-color: hsl(180, 29%, 50%);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 15px;
+}
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: var(--background-color);
+}
+.jobs {
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
