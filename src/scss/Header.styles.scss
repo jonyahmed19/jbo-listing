@@ -32,6 +32,11 @@ header {
         }
       }
     }
+    li:hover {
+      button {
+        background-color: #306e6e;
+      }
+    }
 
     button {
       margin-left: 7px;
